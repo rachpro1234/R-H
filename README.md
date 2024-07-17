@@ -1,7 +1,5 @@
 # 👕 Responsive Clothing Landing Page
 
-### 👕 Responsive Clothing Landing Page 
-
 - Responsive Clothing Landing Page Using HTML CSS & JavaScript
 - Contains animations when scrolling.
 - Includes a dark and light mode.
