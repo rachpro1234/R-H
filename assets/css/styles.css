@@ -214,7 +214,7 @@ body.dark-theme {
   .nav__link i {
     font-size: 1.25rem;
   }
-  nav__link span {
+  .nav__link span {
     font-size: 0.688rem;
   }
 }
@@ -226,9 +226,10 @@ body.dark-theme {
 }
 
 /* Active link */
-.active__link {
+.active-link {
   color: var(--title-color);
 }
+
 
 /*=============== HOME ===============*/
 .home {
@@ -268,12 +269,14 @@ body.dark-theme {
   position: absolute;
   right: -1.5rem;
   top: -9.5rem;
+  border-radius: 7px;
 }
 
 .home__images img:nth-child(2) {
   width: 180px;
   margin-left: 0.5rem;
   position: relative;
+  border-radius: 7px;
 }
 
 /*=============== BUTTON ===============*/
@@ -310,6 +313,7 @@ body.dark-theme {
 .new__img {
   width: 270px;
   margin-bottom: 1rem;
+  border-radius: 7px;
 }
 
 .new__link {
@@ -396,6 +400,7 @@ body.dark-theme {
 
 .products__img {
   margin-bottom: 1rem;
+ border-radius: 7px;
 }
 
 .products__title {
@@ -440,6 +445,7 @@ body.dark-theme {
 
 .brand__img {
   width: 120px;
+  border-radius: 7px;
 }
 
 .brand__img:nth-child(even) {
@@ -453,9 +459,10 @@ body.dark-theme {
 .footer__logo {
   color: var(--title-color);
   font-size: var(--h2-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-awesome);
   display: inline-block;
   margin-bottom: 0.75rem;
+  text-transform: uppercase;
 }
 
 .footer__content,
