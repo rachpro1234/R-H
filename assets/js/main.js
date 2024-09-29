@@ -83,7 +83,7 @@ const getCurrentTheme = () => {
 const getCurrentIcon = () => {
   themeButton.classList.contains(iconTheme)
     ? "fa-regular fa-moon"
-    : "fa-sharp fa-light fa-sun bright";
+    : "fa-sharp-fa-light-fa-sun-bright";
 };
 
 // Activate / deactivate the theme manually with the button
